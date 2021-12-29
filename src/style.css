@@ -51,9 +51,9 @@ p {
 
 .hero-area {
     display: flex;
-    flex-direction: column;
-    height: calc(100% - 106px);
-    justify-content: center;
+    justify-content: space-between;
+    height: calc(100% - 120px);
+    align-items: center;
 }
 
 .hero-text {
@@ -70,4 +70,21 @@ p {
     font-weight: 300;
     padding-top: 5px;
     margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #ef774b;
+}
+
+.button:active {
+    background-color: #A9A9A9;
+    color: #808080;
+}
+
+.logo {
+    margin: 20px;
+}
+
+.social {
+    margin: 20px;
 }
