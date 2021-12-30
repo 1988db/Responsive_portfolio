@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -31,6 +35,11 @@ ul {
     width: 500px;
     justify-content: space-around;
     font-size: 30px;
+}
+
+ul.show {
+    display: block;
+    width: 100%;
 }
 
 li {    
@@ -143,4 +152,34 @@ hr {
 a {
     text-decoration: none;
     color: white;
+}
+
+.hamburger {    
+    display: none;
+}
+
+@media only screen and (max-width: 576px) {
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 15px;
+    }
+
+    ul {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+    
 }
