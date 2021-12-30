@@ -2,8 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-section {
-    height: 500px;
+section {   
     background-color: white;
     border: 1px solid black;
 }
@@ -33,14 +32,17 @@ ul {
     font-size: 30px;
 }
 
-li {
-    /*width: 200px;*/
+li {    
     text-decoration: none;
 }
 
 h1 {
     font-size: 90px;
     margin: 0;
+}
+
+h2 {
+    font-size: 50px;
 }
 
 p {
@@ -87,4 +89,15 @@ p {
 
 .social {
     margin: 20px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
 }
