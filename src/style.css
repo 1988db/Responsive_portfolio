@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -40,6 +42,17 @@ ul {
 ul.show {
     display: block;
     width: 100%;
+    padding: 0;
+    text-align: center;
+}
+
+ul.show li {
+    border-top: 1px solid white;
+    margin: 0 20px;
+}
+
+ul.show li:first-of-type {
+    border-top: 0;    
 }
 
 li {    
@@ -182,4 +195,43 @@ a {
         
     }
     
+    .hero {
+        padding-left: 20px;
+    }
+
+    .hero-text {
+        margin-left: 0;
+    }
+
+    h1 {
+        font-size: 46px;
+    }
+    
+    p {
+        font-size: 24px;
+    }
+
+    .sub-section {
+        flex-direction: column;        
+        padding: 20px;
+        align-items: center;        
+    }
+
+    .headshot {
+        margin-top: 80px;
+    }
+
+    .sub-section-alternative {        
+        padding: 20px;
+    }
+
+    footer {
+        padding: 20px;        
+    }
+
+    .project-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
