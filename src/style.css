@@ -126,7 +126,7 @@ p {
 }
 
 .sub-section-alternative {
-    display: flex;
+    display: flex;    
     flex-direction: column;
     text-align: center;
     padding: 80px;
@@ -134,7 +134,7 @@ p {
 
 .headshot-container {
     display: flex;
-    align-items: center;
+    align-items: center;    
 }
 
 .project-card {
@@ -147,6 +147,7 @@ p {
 .project-container {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .project-image {
